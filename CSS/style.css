@@ -1,0 +1,331 @@
+#top {
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    display: flex;
+    height: auto;
+    margin-top: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    align-items: flex-end;
+}
+
+
+
+#logo {
+    min-width: 60%;
+    flex-shrink: 1;
+}
+
+#name {
+    max-width: 10%;
+    flex-shrink: 50;
+}
+
+.social {
+    max-width: 30%;
+    box-shadow: 2px 2px grey;
+    border-radius: 5px;
+    /* background-color: aqua; */
+}
+
+#logoimage {
+    width: 100%
+}
+
+
+
+#hrule {
+    border-top: 10px solid black;
+}
+
+#menu {
+    /* border: 1px solid black; */
+    /* background-color: rgb(255, 127, 197); */
+    display: flex;
+    height: auto;
+    /* margin-top: 0.1%; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 1%;
+    padding-right: 10%;
+
+    /* justify-items: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: flex-start;
+    align-content: center; */
+}
+
+#homelogo {
+    /* height: fit-content;
+    background-color: blue;
+    padding: 0%;
+    border: 1px solid black; */
+    /* margin-left: 0.4%; */
+
+    /* padding-bottom: 1.6%;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+    padding-top: 0.2%;
+    margin-left: 0.6%;
+    margin-bottom: 0.6%;
+    margin-right: 0.6%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width: auto;
+    height: 22px;
+    align-content: center;
+    background-color: wheat;
+    border: 1px solid black;
+    box-shadow: 6px 6px 6px  grey; */
+    text-decoration: solid;
+    font-size: 1.3vw;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    padding: 0.6%;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-left: 0.9vw;
+    /* margin-bottom: 0.6%; */
+    margin-right: 0.9vw;
+    width: auto;
+    height: auto;
+    background-color: lightgrey;
+    box-shadow: 6px 6px 6px grey;
+}
+
+.menu_items {
+    text-decoration: solid;
+    font-size: 1.3vw;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    padding: 0.9%;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-left: 0.6%;
+    margin-bottom: 0.6%;
+    margin-right: 0.6%;
+    width: auto;
+    height: auto;
+    background-color: lightgrey;
+    box-shadow: 6px 6px 6px grey;
+    /* object-position: top;  */
+}
+
+#homeimage {
+    /* height: 35px; */
+    width: 2vw;
+    /* background-color: aqua; */
+    /* object-fit: contain;  */
+    /* width: 35px; */
+}
+
+#body_ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0%;
+    margin-top: 0.6%;
+    margin-bottom: 1%;
+    /* border: 1px solid black;
+    background-color: aquamarine; */
+}
+
+.maintask {
+    /* border: 1px solid black;
+    background-color: aquamarine; */
+    display: flex;
+    height: auto;
+    margin-right: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    align-items: center;
+}
+
+#mainbox {
+
+    /* background-color: lightblue; */
+    /* border: 3px solid black; */
+    box-shadow: 10px 10px 10px grey;
+    display: flex;
+    height: auto;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    max-width: 58%;
+    flex-shrink: 10;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Hos.jpg);
+    background-size: 100% 100%;
+    /* object-fit: cover; */
+    /* background-position: center; */
+    border-radius: 0.6%;
+}
+
+#notice {
+    /* background-color: greenyellow; */
+    /* border: 3px solid black; */
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    margin-left: 1%;
+    padding: 0%;
+    box-shadow: 10px 10px 10px grey;
+
+}
+
+#announce {
+    /* background-color: brown; */
+    background-color: lightgrey;
+    /* border: 2px solid black; */
+    padding: 3%;
+    padding-bottom: 4%;
+    width: 94%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 2vw;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+}
+
+
+#info {
+    background-color: lightgrey;
+    /* border: 3px solid black; */
+    border: 1px solid black;
+    border-top: 0px;
+    padding: 3%;
+    width: 94%;
+    height: 60vh;
+    margin-top: 0%;
+    /* border-radius: 10px; */
+}
+
+.boxes {
+    background-color: rosybrown;
+    border: 1.5px solid black;
+    margin: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 190px;
+    height: 23vh;
+    box-shadow: 8px 8px 7px grey;
+    border-radius: 1vw;
+    background-size: 100% 100%;
+
+}
+
+.boxrow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 1%;
+}
+
+#gallerycontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0.6%;
+}
+
+#im_gallery {
+    background-color: lightblue;
+    margin: 0.5vw;
+    border: 1px solid black;
+    height: 50vh;
+}
+
+#vid_gallery {
+    background-color: skyblue;
+    /* border: 1px solid black; */
+    margin: 0.5vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-shadow: 10px 10px 20px grey;
+}
+
+#iit_video {
+    margin: 2vw;
+}
+
+#hos_about {
+    background-color: lightblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding: 2vw;
+    margin: 2vw;
+
+}
+
+#vid_about_head {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    height: 300px;
+    padding: 4vw;
+    /* padding-top: 4%; */
+    /* padding-bottom: 2%; */
+    /* border: 1px solid black; */
+    background-color: grey;
+    justify-content: space-between;
+}
+
+.foot_items {
+    /* background-color: wheat; */
+    /* border: 3px solid black; */
+    margin-left: 0%;
+    margin-right: 0%;
+    min-width: 20%;
+    color: black;
+    font-size: 1.1vw;
+    font-weight: 200;
+    margin: 0.1vw;
+    /* padding-left: 2%; */
+}
+
+.foot_head {
+    font-size: 1.4vw;
+    font-weight: 800;
+}
